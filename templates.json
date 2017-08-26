@@ -18,7 +18,7 @@
     "logo": "http://tomii.orgfree.com/ikonka.ico",
     "image": "dtandersen/factorio:latest",
     "ports": [
-        "34197/tcp", 
+        "34197/udp", 
         "27015/tcp"
     ],
      "volumes": ["/factorio"]
