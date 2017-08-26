@@ -9,4 +9,17 @@
       "5000/tcp"
     ],
     "volumes": ["/var/lib/registry"]
+  },
+ {
+    "title": "Factorio",
+    "description": "Factorio Server",
+    "categories": ["gameserver", "docker"],
+    "platform": "linux",
+    "logo": "http://tomii.orgfree.com/ikonka.ico",
+    "image": "dtandersen/factorio:latest",
+    "ports": [
+        "34197:34197/tcp", 
+        "27015:27015/tcp"
+    ],
+     "volumes": ["factorio-data:/factorio"]
   }]
