@@ -22,4 +22,18 @@
         "27015/tcp"
     ],
      "volumes": ["/factorio"]
+  },
+{
+    "title": "Teamspeak",
+    "description": "Teamspeak Server",
+    "categories": ["gameserver", "docker"],
+    "platform": "linux",
+    "logo": "https://www.myteamspeak.com/assets/dist/images/logos/teamspeak_small.png",
+    "image": "devalx/docker-teamspeak3:latest",
+    "ports": [
+        "9987/udp", 
+        "10011/tcp",
+        "30033/tcp"
+    ],
+     "volumes": ["/home/ts3/data"]
   }]
