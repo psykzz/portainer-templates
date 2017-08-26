@@ -18,8 +18,8 @@
     "logo": "http://tomii.orgfree.com/ikonka.ico",
     "image": "dtandersen/factorio:latest",
     "ports": [
-        "34197:34197/tcp", 
-        "27015:27015/tcp"
+        "34197/tcp", 
+        "27015/tcp"
     ],
-     "volumes": ["factorio-data:/factorio"]
+     "volumes": ["/factorio"]
   }]
