@@ -57,7 +57,7 @@
     "name": "openra server",
     "image": "rmoriz/openra:latest",
     "ports": [
-        "1234/tcp",
+        "1234/tcp"
     ],
     "env": [
       {
