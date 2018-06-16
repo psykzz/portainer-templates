@@ -62,8 +62,7 @@
     "env": [
       {
         "name": "Name",
-        "label": "Server name, shown in the server browser",
-        "set": "OpenRA Server"
+        "label": "Server name, shown in the server browser"
       },
       {
         "name": "Mod",
@@ -77,7 +76,8 @@
       },
       {
         "name": "ExternalPort",
-        "label": "External Server port"
+        "label": "External Server port",
+        "description": "Be sure to set this the same as the host port (under advanced settings)
       }
     ]
   }
