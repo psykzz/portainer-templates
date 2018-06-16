@@ -6,6 +6,7 @@
     "categories": ["gameserver", "docker"],
     "platform": "linux",
     "logo": "http://tomii.orgfree.com/ikonka.ico",
+    "name": "factorio server",
     "image": "dtandersen/factorio:latest",
     "ports": [
         "34197/udp", 
@@ -20,6 +21,7 @@
     "categories": ["gameserver", "docker"],
     "platform": "linux",
     "logo": "https://www.myteamspeak.com/assets/dist/images/logos/teamspeak_small.png",
+    "name": "teamspeak server",
     "image": "devalx/docker-teamspeak3:latest",
     "ports": [
         "9987/udp", 
