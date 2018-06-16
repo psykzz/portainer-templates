@@ -68,16 +68,16 @@
       {
         "name": "Mod",
         "label": "Server mod (no need to change)",
-        "set": "ra",
+        "set": "ra"
       },
       {
         "name": "ListenPort",
         "label": "Internal container port (no need to change)",
-        "set": "1234",
+        "set": "1234"
       },
       {
         "name": "ExternalPort",
-        "label": "External Server port",
+        "label": "External Server port"
       }
     ]
   }
