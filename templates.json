@@ -29,5 +29,56 @@
         "30033/tcp"
     ],
      "volumes": ["/home/ts3/data"]
+  },
+  {
+    "type": "container",
+    "title": "Watchtower",
+    "description": "Docker watcher",
+    "categories": ["utility", "docker"],
+    "platform": "linux",
+    "logo": "https://www.myteamspeak.com/assets/dist/images/logos/teamspeak_small.png",
+    "name": "watchtower",
+    "image": "v2tec/watchtower:latest",
+    "volumes": [
+      {
+        "container": "/var/run/docker.sock",
+        "bind": "/var/run/docker.sock"
+      }
+    ],
+    "command": "--cleanup"
+  },
+  {
+    "type": "container",
+    "title": "OpenRA Server",
+    "description": "Open RA dedicated server",
+    "categories": ["gameserver", "docker"],
+    "platform": "linux",
+    "logo": "http://www.openra.net/images/soviet-logo.svg",
+    "name": "openra server",
+    "image": "rmoriz/openra:latest",
+    "ports": [
+        "1234/tcp",
+    ],
+    "env": [
+      {
+        "name": "Name",
+        "label": "Server name, shown in the server browser",
+        "set": "OpenRA Server"
+      },
+      {
+        "name": "Mod",
+        "label": "Server mod (no need to change)",
+        "set": "ra",
+      },
+      {
+        "name": "ListenPort",
+        "label": "Internal container port (no need to change)",
+        "set": "1234",
+      },
+      {
+        "name": "ExternalPort",
+        "label": "External Server port",
+      }
+    ]
   }
 ]
