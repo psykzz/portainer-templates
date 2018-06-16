@@ -77,7 +77,7 @@
       {
         "name": "ExternalPort",
         "label": "External Server port",
-        "description": "Be sure to set this the same as the host port (under advanced settings)
+        "description": "Be sure to set this the same as the host port (under advanced settings)"
       }
     ]
   }
