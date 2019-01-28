@@ -1,6 +1,6 @@
 [
   {
-    "type": "container",
+    "type": "1",
     "title": "Factorio",
     "description": "Factorio Server",
     "categories": ["gameserver", "docker"],
@@ -15,7 +15,7 @@
      "volumes": ["/factorio"]
   },
   {
-    "type": "container",
+    "type": "1",
     "title": "Teamspeak",
     "description": "Teamspeak Server",
     "categories": ["gameserver", "docker"],
@@ -31,7 +31,7 @@
      "volumes": ["/home/ts3/data"]
   },
   {
-    "type": "container",
+    "type": "1",
     "title": "Watchtower",
     "description": "Docker watcher",
     "categories": ["utility", "docker"],
@@ -48,7 +48,7 @@
     "command": "--cleanup"
   },
   {
-    "type": "container",
+    "type": "1",
     "title": "OpenRA Server",
     "description": "Open RA dedicated server",
     "categories": ["gameserver", "docker"],
